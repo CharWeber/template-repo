@@ -14,6 +14,7 @@ module.exports = {
     contentBase: './dist'    
   },
   plugins: [
+    new Dotenv(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'template-repo',
